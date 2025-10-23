@@ -66,7 +66,11 @@ person_list = [
     student(6, "Jakub", "Kořínský", 18, "Male", "IT4B", "IT"),
 ]
 
-
 for zam in person_list:
-    print(zam.Vypis())
-    print("----------------------")
+        print(zam.vypis)
+        print("-" * 50)
+
+        if isinstance(person, student):
+            person.studovat()
+        elif isinstance(person, employee):
+            person.vyucovat()
